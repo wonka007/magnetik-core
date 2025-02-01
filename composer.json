@@ -1,0 +1,33 @@
+{
+    "name": "magnetik/core",
+    "description": "Laravel package for plugin based system",
+    "keywords": ["laravel", "CMS"],
+    "license": "GPL-3.0-only",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vít Gardoň",
+            "email": "vit.gardon7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Magnetik\\Core\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3", 
+        "laravel/framework": "^11.31",
+        "laravel/tinker": "^2.9"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pail": "^1.1",
+        "laravel/pint": "^1.13",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.1",
+        "phpunit/phpunit": "^11.0.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

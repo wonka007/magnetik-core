@@ -1,0 +1,20 @@
+# Composer specific
+/vendor/
+/composer.lock
+
+# PHPUnit specific
+.phpunit.result.cache
+
+# Node modules (if using node.js)
+node_modules/
+
+# Logs
+*.log
+
+
+# IDE files
+.idea/
+.vscode/
+
+# Composer cache
+/composer.phar.cache
